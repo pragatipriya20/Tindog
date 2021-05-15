@@ -1,0 +1,179 @@
+body{
+    font-family: "Montserrat";
+}
+
+/* title section */
+
+#title{
+    padding: 1% 15% 1% 15%;
+    
+}
+.heading{
+    font-family: "Montserrat-black";
+    font-weight: bolder;
+    line-height: 4rem;
+    color: white;
+    font-size: 3.8rem;
+    padding-top: 10%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+}
+.download{
+    margin: 5% 3% 5% 0% ;
+}
+.title-image{
+   width: 50%; 
+   transform: rotate(25deg);
+   position:relative;
+   left: 20%;
+  top: 10%;
+}
+/* features section */
+
+#features{
+    padding: 7% 15% 7% 15%;
+    position: relative;
+   
+}
+.feature-box{
+    text-align: center;
+    padding: auto;
+}
+.feature-heading{
+    font-family: "Montserrat-bold" ;
+    font-weight: bolder;
+}
+p{
+    color: gray;
+}
+.icon{
+    color: rgb(102, 143, 189);
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:rgb(180, 36, 103);
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:rgb(102, 143, 189) ;
+    color: white;
+    position: relative:
+
+}
+.testi{
+    font-family: "Montserrat-bold";
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    font-weight: bolder;
+}
+.testimonials-image {
+    margin: 5%;
+    margin-bottom: 3%;
+    border-radius: 100%;
+    width: 20%;
+}
+
+/* press section */
+
+#press{
+    background-color:rgb(102, 143, 189) ;
+    padding:1% ;
+    text-align: center;
+    position: relative;
+}
+.press-logo{
+  width: 15%;
+ margin-left: 3%;
+ margin-right: 3%;
+ margin-bottom: 2%;
+}
+.carousel-item{
+    padding:7% 15% 7% 15% ;
+}
+
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+ 
+/* cta section */
+
+#cta{
+    padding: 1% 15% 1% 15% ;
+    text-align: center;
+}
+
+.cta-text{
+    font-family: "Montserrat-black";
+    font-weight: bolder;
+    color: white;
+    font-size: 2.5rem;
+    
+}
+
+#footer{
+    
+    text-align: center;
+    padding: 1% 15% 1% 15% ;
+    
+}
+.social-icon{
+    margin: 5% 3% 0% 3%;
+}
+
+/* sections */
+
+.coloured-section {
+    background-color: rgb(180, 36, 103); 
+
+}
+.white-section {
+    background-color: white;
+}
+
+
+/* using media query to make responsive */
+@media (max-width: 770px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        width:60%;
+        left: 0;
+    }
+    
+}
+
+
+/* 
+       NOTES
+
+hierarchy level
+
+  html tags have lowet hierarchy
+  then class and id's have highest priority.
+
+  internal syles or css have even higher priority than id's
+
+  Avoid inline styling
+
+*/
